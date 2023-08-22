@@ -1,6 +1,6 @@
 services:
   pgdatabase:
-    image: postgres:13
+    image: postgres:15
     environment:
       - POSTGRES_USER=root
       - POSTGRES_PASSWORD=root
@@ -16,4 +16,3 @@ services:
       - PGADMIN_DEFAULT_PASSWORD=root
     ports:
       - "8080:80"
-    
