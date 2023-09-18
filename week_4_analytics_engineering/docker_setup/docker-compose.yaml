@@ -7,6 +7,6 @@ services:
     image: dbt/bigquery
     volumes:
       - .:/usr/app
-      - ~/.dbt/:/root/.dbt/
-      - ~/.google/credentials/google_credentials.json:/.google/credentials/google_credentials.json
+      - $HOME/.dbt/:/root/.dbt/
+      - $HOME/.google/credentials/google_credentials.json:/.google/credentials/google_credentials.json
     network_mode: host
