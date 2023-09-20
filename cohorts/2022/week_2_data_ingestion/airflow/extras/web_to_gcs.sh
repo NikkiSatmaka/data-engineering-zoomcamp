@@ -1,3 +1,6 @@
+#!/usr/bin/env bash
+# -*- coding: utf-8 -*-
+
 dataset_url=${dataset_url}
 dataset_file=${dataset_file}
 path_to_local_file=${path_to_local_file}
