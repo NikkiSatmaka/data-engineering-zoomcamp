@@ -6,8 +6,22 @@ channels:
 
 dependencies:
   - pip
-  - jupyter
+  - ipykernel
+
+  - black
+  - isort
+  - nbqa
+
   - pyarrow
   - pandas
   - sqlalchemy
   - psycopg
+  - airflow
+  # - sqlalchemy=1
+  # - psycopg2
+  # - prefect
+  # - pandas-gbq
+
+  # - pip:
+  #   - prefect-sqlalchemy
+  #   - prefect-gcp[cloud_storage]
