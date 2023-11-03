@@ -23,12 +23,12 @@ Syllabus
 
 ## Taking the course
 
-### 2023 Cohort
+### 2024 Cohort
 
-* **Start**: 16 January 2023 (Monday) at 18:00 CET
+* **Start**: 15 January 2024 (Monday) at 17:00 CET
 * **Registration link**: https://airtable.com/shr6oVXeQvSI5HuWD
 * Subscribe to our [public Google Calendar](https://calendar.google.com/calendar/?cid=ZXIxcjA1M3ZlYjJpcXU0dTFmaG02MzVxMG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (it works from Desktop only)
-* [Cohort folder](cohorts/2023/) with homeworks and deadlines 
+* [Cohort folder](cohorts/2024/) with homeworks and deadlines 
 
 ### Self-paced mode
 
@@ -40,22 +40,6 @@ can take the course at your own pace
 * Check [FAQ](https://docs.google.com/document/d/19bnYs80DwuUimHM65UV3sylsCn2j1vziPOwzBwQrebw/edit?usp=sharing) if you have problems
 * If you can't find a solution to your problem in FAQ, ask for help in Slack
 
-### Asking for help in Slack
-
-The best way to get support is to use [DataTalks.Club's Slack](https://datatalks.club/slack.html). Join the [`#course-data-engineering`](https://app.slack.com/client/T01ATQK62F8/C01FABYF2RG) channel.
-
-To make discussions in Slack more organized:
-
-* Follow [these recommendations](asking-questions.md) when asking for help
-* Read the [DataTalks.Club community guidelines](https://datatalks.club/slack/guidelines.html)
-
-### Course UI
-
-Alternatively, you can access this course using the provided UI app, the app provides a user-friendly interface for navigating through the course material. 
-
-* Visit the following link: [DE Zoomcamp UI](https://dezoomcamp.streamlit.app/)
-
-![dezoomcamp-ui](https://github.com/DataTalksClub/data-engineering-zoomcamp/assets/66017329/4466d2bc-3728-4fca-8e9e-b1c6be30a430)
 
 ## Syllabus
 
@@ -79,10 +63,7 @@ Alternatively, you can access this course using the provided UI app, the app pro
 
 * Data Lake
 * Workflow orchestration
-* Introduction to Prefect
-* ETL with GCP & Prefect
-* Parametrizing workflows
-* Prefect Cloud and additional resources
+* Workflow orchestration with Mage
 * Homework
 
 [More details](week_2_workflow_orchestration/)
@@ -146,11 +127,22 @@ Putting everything we learned to practice
 
 [More details](week_7_project)
 
+### Course UI
 
-### Workshop: Maximizing Confidence in Your Data Model Changes with dbt and PipeRider
+Alternatively, you can access this course using the provided UI app, the app provides a user-friendly interface for navigating through the course material. 
 
+* Visit the following link: [DE Zoomcamp UI](https://dezoomcamp.streamlit.app/)
 
-[More details](cohorts/2023/workshops/piperider.md)
+![dezoomcamp-ui](https://github.com/DataTalksClub/data-engineering-zoomcamp/assets/66017329/4466d2bc-3728-4fca-8e9e-b1c6be30a430)
+
+### Asking for help in Slack
+
+The best way to get support is to use [DataTalks.Club's Slack](https://datatalks.club/slack.html). Join the [`#course-data-engineering`](https://app.slack.com/client/T01ATQK62F8/C01FABYF2RG) channel.
+
+To make discussions in Slack more organized:
+
+* Follow [these recommendations](asking-questions.md) when asking for help
+* Read the [DataTalks.Club community guidelines](https://datatalks.club/slack/guidelines.html)
 
 ## Overview
 
@@ -164,7 +156,7 @@ Putting everything we learned to practice
 * *Terraform*: Infrastructure-as-Code (IaC)
 * *Docker*: Containerization
 * *SQL*: Data Analysis & Exploration
-* *Prefect*: Workflow Orchestration
+* *Mage*: Workflow Orchestration
 * *dbt*: Data Transformation
 * *Spark*: Distributed Processing
 * *Kafka*: Streaming
@@ -183,10 +175,7 @@ Prior experience with data engineering is not required.
 ## Instructors
 
 - [Ankush Khanna](https://linkedin.com/in/ankushkhanna2)
-- [Sejal Vaidya](https://linkedin.com/in/vaidyasejal)
 - [Victoria Perez Mola](https://www.linkedin.com/in/victoriaperezmola/)
-- [Kalise Richmond](https://www.linkedin.com/in/kaliserichmond/)
-- [Jeff Hale](https://www.linkedin.com/in/-jeffhale/)
 - [Alexey Grigorev](https://linkedin.com/in/agrigorev)
 
 ## Tools
@@ -205,17 +194,11 @@ See [Week 1](week_1_basics_n_setup) for more details about installing these tool
 
 ## Supporters and partners
 
-Thanks to the course sponsors for making it possible to create this course
+Thanks to the course sponsors for making it possible to run this course
 
 <p align="center">
-  <a href="https://www.prefect.io/">
-    <img height="100" src="https://github.com/DataTalksClub/mlops-zoomcamp/raw/main/images/prefect.png">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://www.piperider.io/">
-    <img height="130" src="images/piperider.png">
+  <a href="https://mage.ai/">
+    <img height="130" src="images/mage.svg">
   </a>
 </p>
 
